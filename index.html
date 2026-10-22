@@ -1,86 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PAGL | Protestants Against Gaelic Language</title>
-<meta name="description" content="PAGL is a platform for discussing Gaelic-language policy, public spending, identity and the future of Northern Ireland.">
-<style>
-:root{--navy:#172b3a;--navy2:#223e50;--gold:#d6c7a1;--paper:#f6f5f1;--ink:#18242c;--muted:#596771;--line:#d9dedf}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-a{color:inherit} .wrap{width:min(1080px,92%);margin:auto}
-header{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)}
-.topline{padding:17px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{font-weight:800;letter-spacing:.07em;font-size:1.02rem}.brand small{display:block;color:var(--gold);font-weight:500;letter-spacing:.02em;font-size:.78rem}
-nav{display:flex;gap:18px;flex-wrap:wrap}nav a{text-decoration:none;color:#fff;font-size:.92rem}nav a:hover,nav a:focus{color:var(--gold)}
-.hero{padding:76px 0 68px;background:linear-gradient(135deg,var(--navy),var(--navy2));color:white}
-.kicker{color:var(--gold);font-size:.8rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
-h1{font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.05;letter-spacing:-.04em;max-width:800px;margin:14px 0 20px}
-.hero p{max-width:700px;color:#e4e9ec;font-size:1.12rem}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:11px 17px;border-radius:5px;text-decoration:none;font-weight:750;border:1px solid var(--gold)}.btn.primary{background:var(--gold);color:var(--navy)}.btn.secondary{color:white}
-section{padding:58px 0}.section-head{max-width:720px;margin-bottom:26px}h2{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:0 0 12px;letter-spacing:-.025em}h3{margin:0 0 8px;line-height:1.25}.lead{color:var(--muted);font-size:1.05rem}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:23px;box-shadow:0 5px 20px #172b3a08}.card .num{font-size:.76rem;letter-spacing:.12em;font-weight:800;color:#6d6040;margin-bottom:13px}.card p{color:var(--muted);margin-bottom:0}
-.band{background:#e9e8e1}.posts{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.post{background:#fff;border:1px solid var(--line);border-radius:9px;padding:22px}.post p{color:var(--muted)}.tag{display:inline-block;background:#f0ebdc;color:#554a31;padding:3px 8px;border-radius:4px;font-size:.76rem;font-weight:750;margin-bottom:10px}
-.note{border-left:4px solid var(--gold);padding:12px 16px;background:#fff;margin-top:24px;color:var(--muted)}
-.contact{background:var(--navy);color:white}.contact .lead{color:#dbe2e6}.contact a{color:var(--gold)}
-footer{padding:22px 0;background:#10212c;color:#d6dfe4;font-size:.85rem}
-@media(max-width:700px){.topline{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{padding:55px 0}.cards,.posts{grid-template-columns:1fr}section{padding:43px 0}}
-</style>
-</head>
-<body>
-<header>
-  <div class="wrap topline">
-    <a class="brand" href="#home" style="text-decoration:none">PAGL <small>Protestants Against Gaelic Language</small></a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a><a href="#arguments">Our Arguments</a><a href="#posts">News &amp; Posts</a><a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-<main>
-  <section class="hero" id="home">
-    <div class="wrap">
-      <div class="kicker">Public debate · Policy · Accountability</div>
-      <h1>A voice in the debate about language policy.</h1>
-      <p>PAGL is a platform for examining Gaelic-language policy, public spending and political decisions in Northern Ireland. We aim to encourage open discussion, clear evidence and accountability.</p>
-      <div class="actions"><a class="btn primary" href="#arguments">Explore our arguments</a><a class="btn secondary" href="#posts">Read updates</a></div>
-    </div>
-  </section>
-  <section id="about">
-    <div class="wrap">
-      <div class="section-head"><div class="kicker" style="color:#756746">Who we are</div><h2>About PAGL</h2><p class="lead">This is a first draft of the campaign's introduction. We can change the wording so it accurately reflects your aims and the people behind the project.</p></div>
-      <p>PAGL provides a place to discuss the impact of Gaelic-language policies on public life in Northern Ireland. We believe public policy should be open to scrutiny, public money should be accounted for, and people with different views should be able to debate the issues respectfully.</p>
-      <p>Our focus is on policies, institutions, costs and decisions—not on attacking individuals or communities because of their background.</p>
-    </div>
-  </section>
-  <section class="band" id="arguments">
-    <div class="wrap">
-      <div class="section-head"><div class="kicker" style="color:#756746">The issues</div><h2>Our Arguments</h2><p class="lead">These are starting topics. Each can become a full article with sources, dates and links to original documents.</p></div>
-      <div class="cards">
-        <article class="card"><div class="num">01 / PUBLIC SPENDING</div><h3>How is public money spent?</h3><p>Examine published budgets, grants and programme costs, making clear what is confirmed and what still needs evidence.</p></article>
-        <article class="card"><div class="num">02 / POLICY &amp; LAW</div><h3>What do the rules say?</h3><p>Explain relevant legislation, public-sector duties and policy proposals in plain English, with links to primary sources.</p></article>
-        <article class="card"><div class="num">03 / COMMUNITY &amp; DEBATE</div><h3>Make room for discussion</h3><p>Set out concerns and counterarguments fairly, so readers can assess the evidence and reach their own conclusions.</p></article>
-      </div>
-    </div>
-  </section>
-  <section id="posts">
-    <div class="wrap">
-      <div class="section-head"><div class="kicker" style="color:#756746">Updates</div><h2>News &amp; Posts</h2><p class="lead">A place to collect selected posts from James K. Roche and other relevant public sources.</p></div>
-      <div class="posts">
-        <article class="post"><span class="tag">Facebook</span><h3>Selected Facebook posts</h3><p>Add a short introduction and link to an original post here. We should use the original link and clearly identify the author.</p><a href="#contact">Add a post link →</a></article>
-        <article class="post"><span class="tag">X</span><h3>Selected posts on X</h3><p>Use this section for brief updates, commentary and links to public discussion. Each item can include a date and source.</p><a href="#contact">Add a post link →</a></article>
-      </div>
-      <div class="note"><strong>Editorial note:</strong> Before publishing, check dates, figures and quotations against original sources. Link to posts rather than copying large amounts of someone else's material without permission.</div>
-    </div>
-  </section>
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="kicker">Get in touch</div><h2>Contact PAGL</h2>
-      <p class="lead">Want to share a source, ask a question or discuss an article? Add a dedicated email address or contact form before publishing.</p>
-      <p><strong>Email:</strong> <em>To be added</em></p>
-      <p><strong>Social links:</strong> <em>Add official PAGL Facebook / X links here</em></p>
-    </div>
-  </section>
-</main>
-<footer><div class="wrap">© PAGL · Draft website · Replace placeholder text and contact details before publishing.</div></footer>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="PAGL: discussion and research on Irish-language policy, public expenditure, education and equal treatment across Ireland."><title>PAGL | Language Policy and Public Accountability</title><style>
+:root{--navy:#102b3a;--deep:#081d2a;--gold:#d9c399;--cream:#f7f5f0;--ink:#152b38}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:17px/1.65 system-ui,-apple-system,Arial,sans-serif;color:var(--ink);background:var(--cream)}a{color:#125d83}a:focus-visible{outline:3px solid #c58b21;outline-offset:3px}.wrap{max-width:1120px;margin:auto;padding:0 22px}header{background:var(--deep);color:white;border-bottom:3px solid var(--gold)}nav{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;padding:17px 0}.logo{font:700 37px Georgia,serif;color:white;text-decoration:none}.logo small{display:block;font:600 10px system-ui;letter-spacing:2px;color:var(--gold)}nav .links{display:flex;gap:17px;flex-wrap:wrap}nav .links a{color:white;text-decoration:none;font-size:14px}nav .links a:hover{text-decoration:underline}.hero{background:linear-gradient(125deg,#0b2535,#244455);color:white;padding:90px 0 100px}.eyebrow{font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:12px;color:var(--gold)}h1,h2,h3{font-family:Georgia,serif;line-height:1.15}h1{font-size:clamp(38px,6vw,72px);max-width:850px;margin:22px 0}h2{font-size:clamp(30px,4vw,43px);margin:0 0 22px}h3{font-size:24px;margin:0 0 12px}.hero p{max-width:760px;font-size:20px;color:#e5edf0}.btn{display:inline-block;background:var(--gold);color:var(--deep);padding:13px 20px;border-radius:5px;text-decoration:none;font-weight:750;margin:12px 12px 0 0}.btn.secondary{background:transparent;border:1px solid var(--gold);color:white}section{padding:66px 0;scroll-margin-top:20px}.alt{background:white}.intro{max-width:830px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.tile{padding:25px;border:1px solid #d7dfe2;background:white;border-radius:9px}.alt .tile{background:var(--cream)}.tile p{margin-bottom:0}.article{max-width:880px;padding:28px 0;border-bottom:1px solid #d9dddc}.article:last-child{border:0}.article h3{color:#163a4d}.tag{font-size:12px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:#626e72}.note{border-left:4px solid #b49a68;padding:14px 20px;background:#f0ece2;margin-top:25px}.resources a{display:block;margin:10px 0}.contact{background:var(--navy);color:white}.contact a{color:#f2dcae}footer{background:var(--deep);color:#d5e0e5;padding:25px 0;font-size:13px}@media(max-width:600px){.hero{padding:58px 0 70px}nav .links{gap:12px}nav .links a{font-size:13px}section{padding:45px 0}.article{padding:22px 0}}
+</style></head><body>
+<header><div class="wrap"><nav aria-label="Main navigation"><a class="logo" href="#home">PAGL<small>PROTESTANTS AGAINST GAELIC LANGUAGE</small></a><div class="links"><a href="#about">About</a><a href="#issues">Issues</a><a href="#articles">Articles</a><a href="#sources">Sources</a><a href="#contact">Contact</a></div></nav></div></header>
+<main id="home"><div class="hero"><div class="wrap"><div class="eyebrow">Language policy · Equality · Public accountability</div><h1>Examining language policy across Ireland</h1><p>PAGL presents arguments and questions about Irish-language requirements, public expenditure, education and access to opportunities, with particular attention to the Republic of Ireland.</p><a class="btn" href="#articles">Read our articles →</a><a class="btn secondary" href="#contact">Get in touch</a></div></div>
+<section id="about"><div class="wrap"><div class="eyebrow">Who we are</div><h2>About PAGL</h2><div class="intro"><p>PAGL stands for Protestants Against Gaelic Language. The group has expressed concerns about compulsory Irish-language policies, language-related public spending and the treatment of people who do not speak Irish. This site brings together those views for public examination and discussion.</p><p>Our coverage focuses primarily on the Republic of Ireland, while also addressing policy developments in Northern Ireland. Views expressed in PAGL commentary should not be taken as representative of all Protestants or all non-Irish speakers.</p></div></div></section>
+<section id="issues" class="alt"><div class="wrap"><div class="eyebrow">Explore the questions</div><h2>Key issues</h2><div class="grid"><div class="tile"><h3>Education and choice</h3><p>What role should Irish play in schools, and what options are available to families seeking exemptions or different language pathways?</p></div><div class="tile"><h3>Jobs and equal access</h3><p>When are Irish-language qualifications necessary for a job, and how can public employers assess requirements fairly?</p></div><div class="tile"><h3>Public expenditure</h3><p>How much is spent on language services, signage, translation, broadcasting and education, and what benefits are reported?</p></div><div class="tile"><h3>History and identity</h3><p>How have Irish and English shaped the island's literary, cultural and political history?</p></div></div></div></section>
+<section id="articles"><div class="wrap"><div class="eyebrow">PAGL perspectives</div><h2>Articles and arguments</h2><p class="intro">The articles below adapt themes from material supplied for the PAGL website. They present questions and viewpoints, not independently verified findings of discrimination or waste.</p>
+<article class="article"><div class="tag">Education · Opinion</div><h3>Should Irish-language study be compulsory?</h3><p>PAGL questions the extent to which Irish should be a compulsory part of education. Its argument centres on parental choice, students' interests and the time allocated to different subjects. Supporters of compulsory Irish regard it as an important means of sustaining a national language and cultural heritage. Any assessment should consider curriculum rules, exemptions, educational outcomes and the views of students and teachers.</p></article>
+<article class="article"><div class="tag">Employment · Equality</div><h3>Language requirements and public-sector jobs</h3><p>A recurring PAGL concern is that Irish-language requirements could exclude otherwise qualified applicants, including Protestants and people who do not speak Irish. Whether a particular requirement is proportionate depends on the duties of the job and applicable equality law. Historical allegations about political patronage should be examined against archival evidence rather than assumed to apply today.</p></article>
+<article class="article"><div class="tag">Taxpayers · Public services</div><h3>How should Irish-language spending be assessed?</h3><p>Public discussion of language policy often includes spending on bilingual signs, public transport information, the national water utility’s communications, translation, Irish-language television and Irish-medium education. The useful questions are what each service costs, what legal duties apply, who benefits and what alternatives exist. Costs should be separated by agency and financial year; no overall figure is asserted here without a supporting budget.</p></article>
+<article class="article"><div class="tag">History · Debate</div><h3>The Language Freedom Movement and historical opposition</h3><p>Opposition to compulsory Irish has a history in the Republic of Ireland, including campaigns associated with the Language Freedom Movement. PAGL's leaflet refers to historical political figures and arguments about language qualifications for state employment. These accounts warrant careful checking against contemporary speeches, archives and academic histories.</p></article>
+<article class="article"><div class="tag">Culture · Literature</div><h3>Ireland's English-language literary heritage</h3><p>Writers associated with Ireland's English-language literary tradition include Jonathan Swift, Oscar Wilde, W. B. Yeats, George Bernard Shaw, Sean O'Casey and James Joyce. Their work forms part of Ireland's cultural history alongside its Irish-language literary heritage. The place of both traditions is an important subject for historical discussion.</p></article>
+<article class="article"><div class="tag">Public policy · Commentary</div><h3>Street signs, language services and political symbolism</h3><p>Posts supplied from a PAGL-related X account argue that public signs should prioritise clear information and question whether language policy is sometimes used to express political identity. Others see bilingual signs as recognition of Irish as a living language. Specific signage decisions can be assessed through the applicable legislation, public consultations, accessibility needs and published costs.</p></article>
+<div class="note"><strong>Editorial note:</strong> The original leaflet contains numerical and historical assertions, including an “87%” figure and a claim about public-service jobs, that have not been substantiated here. They are deliberately not presented as established facts. Quotations and commentary from social media should be attributed to their original authors.</div></div></section>
+<section id="sources" class="alt"><div class="wrap"><div class="eyebrow">Further reading</div><h2>Public information and original commentary</h2><p>These official sites provide starting points for checking legislation, spending and public policy. They do not necessarily endorse PAGL's interpretations.</p><div class="resources"><a href="https://www.irishstatutebook.ie/" target="_blank" rel="noopener">Irish Statute Book — legislation</a><a href="https://www.gov.ie/" target="_blank" rel="noopener">Government of Ireland — departments and policy</a><a href="https://www.cso.ie/" target="_blank" rel="noopener">Central Statistics Office — statistics</a><a href="https://www.oireachtas.ie/" target="_blank" rel="noopener">Irish Parliament — debates and committee records</a><a href="https://www.coimisineir.ie/" target="_blank" rel="noopener">Irish Language Commissioner — language rights and duties</a><a href="https://www.facebook.com/share/1JAGGw5cLm/?mibextid=wwXIfr" target="_blank" rel="noopener">James Protestant Roche — Facebook</a><a href="https://x.com/protestantsagl" target="_blank" rel="noopener">Protestants Against Gaelic Language — X</a></div></div></section>
+<section id="contact" class="contact"><div class="wrap"><div class="eyebrow">Contact</div><h2>Contact PAGL</h2><p>For correspondence, information or to share a documented experience, email:</p><p><a href="mailto:paglbelfast@gmail.com"><strong>paglbelfast@gmail.com</strong></a></p><p>Follow the linked social media profiles above for additional commentary.</p></div></section></main><footer><div class="wrap">© 2026 PAGL · Public discussion, sources and accountability · <a style="color:#f2dcae" href="#home">Back to top ↑</a></div></footer></body></html>
